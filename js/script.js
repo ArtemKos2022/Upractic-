@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // // const category = 'toys';
 
@@ -30,26 +30,54 @@
 // // // console.log(isCeked && isClose);
 // // console.log(isCeked || !isClose);
 // ==========================================
-const numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?', '');
-console.log(numberOfFilms);
+// цикл в цикле
 
-let personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// let result = '';
+// const length = 7;
 
-const a = prompt('Один?', ''),
-    b = prompt('На сколько?', ''),
-    c = prompt('Один?', ''),
-    d = prompt('На сколько?', '');
+// for (let i = 1; i < length; i++) {
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+//     for (let j = 0; j < i; j++) {
+//         result += '*';
+//     }
 
-console.log(personalMovieDB);
+//     result += '\n';
+// }
+// console.log(result);
+// ===================================================
 
+// ========проект=====
+// const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "");
+// console.log(numberOfFilms);
 
+// let personalMovieDB = {
+//   count: numberOfFilms,
+//   movies: {},
+//   actors: {},
+//   genres: [],
+//   privat: false,
+// };
+
+// const a = prompt("Один?", ""),
+//   b = prompt("На сколько?", ""),
+//   c = prompt("Один?", ""),
+//   d = prompt("На сколько?", "");
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// console.log(personalMovieDB);
+
+// ====================================================
+
+function fifthTask() {
+  const arrayOfNumbers = ['5', 6, 7, 8, 9, 10];
+  const arr = {
+    a: '5'
+  };
+
+  
+  
+}
+console.log(arr[a]);
 
